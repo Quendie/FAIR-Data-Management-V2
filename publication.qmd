@@ -27,6 +27,13 @@ In seldom cases publishing data can also be limited due to concerns of national 
 
 :::
 
+::: callout-caution
+## Legal aspects specific to software 
+
+Maybe we can link to the GWP for RSE "Legal Aspects" here and summarize one or two important takeaways? [https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/legal/](https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/legal/)
+
+:::
+
 ## Data Availability Statement
 
 A Data Availability Statement (as well as a Code Availability Statement) is a special section in an article that states whether the authors have made the evidence supporting their findings available, and if so, where readers may access it. They are usually placed somewhere towards the end of the article, mostly before the Reference section. As part of their commitment to supporting open research, some journals now require all manuscripts to include a Data Availability Statement in order to be accepted for publication. Even if a journal does not require such a statement, it is highly recommendable to include it and make transparent that the data underlying the article's findings are available[^1]!
@@ -40,6 +47,13 @@ When submitting to a journal that uses a double-blind peer review process, it's 
 :::
 
 [^2]: Source [https://www.cambridge.org/core/services/authors/open-data/data-availability-statements](https://www.cambridge.org/core/services/authors/open-data/data-availability-statements).
+
+::: callout-caution 
+## Code Availability Statement 
+
+Is there anything to consider for a code/software availability statement that differs from a "Data Availability Statement"? 
+Is it better to combine the two aspects or separate them? 
+:::
 
 ::: callout-tip
 ## Task 1.1:
@@ -111,6 +125,13 @@ If we in the end would like to share our research data and enable reuse for othe
 It is important to keep in mind that you can only define usage conditions by assigning licenses for work that "is yours", i.e., that you have the copyright for. This is not always the case for data. Data that result from a significant creative process (as is often the case in the humanities or qualitative social sciences) are more likely covered by copyright while data that result from rather simple measurement processes (as is often the case for natural or quantitative social sciences) are likely not covered. Also, note the distinction between the **instrument** used to create the data and the data themselves in this regard. E.g., if the data you are about to publish result from a comprehensive questionnaire that you have developed, **the questionnaire** ought to be protected by copyright whereas the data are most likely not. As mentioned in the beginning, you can only assign licenses to work that you hold the copyright for. If this is not the case or you are unsure, it is safest to go with CC0 as this is strictly speaking not a license, but rather a waiver of copyright. You explicitly release your work into the public domain.
 :::
 
+::: callout-caution
+
+## License and copyright for software
+
+As already mentioned we would likely need an excursion on copyright vs. copyleft, since the example license is GNU. Maybe with a link to this resource: [https://opensource.com/resources/what-is-copyleft](https://opensource.com/resources/what-is-copyleft)?
+
+::: 
 There are several licenses out there, as e.g. [Creative Commons](https://creativecommons.org/), [MIT](https://opensource.org/license/mit) (software), [Apache](https://www.apache.org/licenses/) (software), [Open Data Commons](https://opendatacommons.org/) and it ultimately is your responsibility to pick one. If you have no advise and you do not want to read through all licenses out there, the Creative Commons licences are usually a save choice (see box below). As rule of thumb, you may want to remember to go with the least restrictive license to maximize your data's reuse potential. A recent article gives the following recommendations[^3]:
 
 [^3]: Brettschneider, P., Axtmann, A., Böker, E., & von Suchodoletz, D. (2021): Offene Lizenzen für Forschungsdaten: Rechtliche Bewertung und Praxistauglichkeit verbreiteter Lizenzmodelle, in: O-Bib. Das Offene Bibliotheksjournal 8(3), pp. 1–22, [https://doi.org/10.5282/o-bib/5749](https://doi.org/10.5282/o-bib/5749). \[only in German\]
@@ -289,7 +310,13 @@ Last but not least, the Research Organization Registry ([ROR](https://ror.org/))
 2.  The first author as listed corresponding author in the article.
 
 3.  Yes, and he also connected his ORCID profile.
+:::
 
+::: callout-caution
+## Making research citable 
+
+I think the PID section works quite well for the software section. I just noticed the "PIDs and Citation" seciton in the GWP for RSE Document: [https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/cite/](https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/cite/) 
+It might make sense to refer to that for a deeper insight. We could also do an excursion on .cff in code repositories, since it is something easily adoptable and would fit this chapter overall. 
 :::
 
 ## Repository
@@ -321,6 +348,13 @@ When searching re3data, most of these criteria are displayed beside the reposito
 
 ![Criteria icons in re3data.org](images/re3data-criteria.png){fig-align="left" width=35%}
 
+::: callout-caution
+## Software repositories
+
+There is a section on this in the GWP for RSE as well: [https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/repos/](https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/repos/)
+
+It would be nice to give a short overview of how to best use (or not use) GitHub as well as a reference to Software Heritage. 
+:::
 
 ::: callout-tip
 ## Task 1.4:
