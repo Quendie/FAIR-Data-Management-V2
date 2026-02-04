@@ -372,8 +372,6 @@ When searching re3data, most of these criteria are displayed beside the reposito
 3.  Click on the repository and go through the details: It assigns a DOI, you can publish under various licenses, it is certified etc.
 :::
 
-::: callout-note
-
 ::: {.callout-important collapse="true"}
 ## Solution: Example 5 (\~ 5 minutes)
 
