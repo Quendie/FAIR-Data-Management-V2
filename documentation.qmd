@@ -36,6 +36,21 @@ Metadata can be found at several places:
 3.  **README file**: Even before you publish your dataset, you should keep track of your metadata. This will prevent you from losing track of it, and will help inform others. A good way to do this is to create a README file. We look at README files in the next section.
 :::
 
+::: callout-caution
+## Dependencies, requirements, and virtual environments
+
+While the metadata section is roughly transferable to software/code I think an important point missing from the documentation aspect for software specifically are dependencies, requirements or whole virtual environments. Maybe they could be introduced here with links to more cohesive explanations.
+
+Does it a require an introduction to the different levels of sophistication? That way the selection on what method to use can be connected to the level of sophistication of the code itself.  
+
+This section in the GWP for RSE document might be of interest: [https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/reprod/](https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/reprod/), but I don't see it completely covering the topic. 
+
+Maybe this resource would be helpful? [https://book.the-turing-way.org/reproducible-research/renv/](https://book.the-turing-way.org/reproducible-research/renv/)
+
+Or maybe this resource: https://s3-school.github.io/s3-2026-lectures/2.1-coding-environment-good-practices/2.1.1-coding-environment-IDE/
+This one seems to be a bit more advanced than the turing way introduction. 
+::: 
+
 ::: callout-tip
 ## Task 2.1: (\~10 min)
 
@@ -191,8 +206,8 @@ All metadata questions have been answered here and different sources have been b
     -   Python; MATLAB
     -   From related publication: Python; MATLAB
 -   What research is this dataset connected to?\
-    -   Indicated on dataset level only by similarity with the paper title.
-    -   <https://doi.org/10.1515/auto-2019-0027> (Available in the dataset's metadata on Zenodo)
+    -   Not indicated on dataset level.
+    -   <https://doi.org/10.1515/auto-2019-0027> (Not provided on dataset level)
 -   Can this dataset be reused?\
     -   The dataset is under a GNU General Public License v2.0 only, which would allow re-use under the given conditions.
 :::
@@ -215,6 +230,14 @@ We have already noted that metadata and README files are closely related. They a
 What should a README file contain? - Ideally, all the answers to the questions in the Metadata section should be included in the README file. To help you decide what to include in your README file, it may be helpful to review the questions in a (Research) [Data Management Plan](dmp.qmd). While your README should be very descriptive, it is also important to keep it concise and clear. For example, avoid using jargon to improve interdisciplinary use.
 
 The README file is most important after someone has downloaded your dataset for possible reuse. Imagine that their data management is sloppy and they lose or forget the link between the downloaded files and your dataset in the repository or the paper you published. The README file included with your dataset ensures that your work can still be understood and that you can still be credited.
+
+::: callout-caution
+## README for software
+
+As already mentioned this README structure and template does not work well for software/code especially with the additional component of the README being usually the "front page" and contact point for users on platforms like GitHub. Is there another template we can provide and should the task be adapted to fit the additonal template? 
+
+
+:::
 
 ::: {.callout-note collapse="true"}
 ## README Template
@@ -502,6 +525,16 @@ Discuss: Can you find supportive information to understand the provided data in 
 -   No overview in the MATLAB code structure
 -   Script usage is explained in the README-file.
 :::
+
+::: callout-caution 
+## Software quality tools 
+Would it make sense to introduce linters or formatting tools here in this section? Since codebooks are kind of helping make the data structures more readable. Linters and formatting tools could help with readability of code without putting in a lot of effort on skill development. 
+
+There is are slides on the topic from the S3 School: [https://vuillaut.github.io/lectures/quality_tools/1](https://vuillaut.github.io/lectures/quality_tools/1)
+
+Also if referring to software quality overall, this RSQkit might be a useful resource: [https://everse.software/RSQKit/](https://everse.software/RSQKit/)
+:::
+
 
 ## Further Resources:
 
