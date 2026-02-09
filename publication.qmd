@@ -131,6 +131,9 @@ It is important to keep in mind that you can only define usage conditions by ass
 
 As already mentioned we would likely need an excursion on copyright vs. copyleft, since the example license is GNU. Maybe with a link to this resource: [https://opensource.com/resources/what-is-copyleft](https://opensource.com/resources/what-is-copyleft)?
 
+To point out the issue of license compatibility: [https://dwheeler.com/essays/floss-license-slide.html](https://dwheeler.com/essays/floss-license-slide.html)
+Deciding what license to pick: [https://choosealicense.com/](https://choosealicense.com/)
+
 ::: 
 There are several licenses out there, as e.g. [Creative Commons](https://creativecommons.org/), [MIT](https://opensource.org/license/mit) (software), [Apache](https://www.apache.org/licenses/) (software), [Open Data Commons](https://opendatacommons.org/) and it ultimately is your responsibility to pick one. If you have no advise and you do not want to read through all licenses out there, the Creative Commons licences are usually a save choice (see box below). As rule of thumb, you may want to remember to go with the least restrictive license to maximize your data's reuse potential. A recent article gives the following recommendations[^3]:
 
