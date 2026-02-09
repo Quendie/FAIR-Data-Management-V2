@@ -9,8 +9,8 @@ Authors:
 - Larissa Leiminger (0000-0002-6491-3197), Max Planck Digital Library 
 - Laura Meier (0000-0003-1368-2306), University Library of Ludwig-Maximilians-Universität
 - David Walter (0000-0001-6807-5007), Max Planck Digital Library 
-- Jasmin Bauer (), MPI for Dynamics of Complex Technical Systems 
-- Jens Saak (), MPI for Dynamics of Complex Technical Systems
+- Jasmin Bauer (0009-0004-2014-7293), MPI for Dynamics of Complex Technical Systems 
+- Jens Saak (0000-0001-5567-9637), MPI for Dynamics of Complex Technical Systems
 
 This material was created for the LMU & MPG Open Science Summer School 2024. During the Summer School the material was accompanied by slides and the tasks were done in groups. Independent of this event, the materials can be used to get an insight into Research Data Management in the context of Open Science and therefore with the goal of a FAIR publication. 
 
