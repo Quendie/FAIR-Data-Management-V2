@@ -405,7 +405,6 @@ Notes on software README:
 -   README.md for the python code is close to the template structure. 
 -   When reading the README files did you feel you could start working with the code easily? Would you do something differently?
 -   Find the filled out README template for example 5 [here](/Example5_READMETemplateSoftware.md)
--   More about code related documentation can be found under [Good Scientific Practice for Research Software Engineering](https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/doc/)
 :::
 
 
