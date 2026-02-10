@@ -242,7 +242,7 @@ In addition to RDMO, a variety of DMP tools exist. The following table[^1] provi
 
 :::
 
-There is a SMP catalog in the MPDL RDMO instance that can also be integrated in other RDMO instances. The MPDL is currently also developing additional plugins for easier SMP usage in RDMO under the DFG funded [MAUS project](https://doi.org/10.5334/dsj-2024-043).
+There is a SMP catalog in the MPDL RDMO instance that can also be integrated in other RDMO instances. The MPDL is currently also developing additional plugins for an easier SMP usage in RDMO under the DFG funded [MAUS project](https://doi.org/10.5334/dsj-2024-043).
 
 
 ::: callout-tip

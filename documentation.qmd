@@ -587,6 +587,15 @@ Also if referring to software quality overall, this RSQkit might be a useful res
 ::: -->
 
 
+::: callout-note
+## Excursion: Linters for coding
+
+There are tools that can help you avoiding common coding mistakes - called linters. Check out this website for more information: [https://github.com/caramelomartins/awesome-linters](https://github.com/caramelomartins/awesome-linters)
+
+:::
+
+
+
 ## Further Resources:
 
 -   "Documentation and Metadata", The Turing Way, accessed 7. July 2024. <https://book.the-turing-way.org/reproducible-research/rdm/rdm-metadata>
